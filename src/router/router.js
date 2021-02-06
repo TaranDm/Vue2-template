@@ -1,15 +1,10 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-
-
-
-Vue.use(Router);
-
-let router = new Router({
+import VueRouter from 'vue-router'
+export default new VueRouter({
   routes: [
-    {}
-   
+    {
+      path: '/',
+    },
+  
   ]
-});
+})
 
-export default router;
